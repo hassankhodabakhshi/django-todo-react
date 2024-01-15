@@ -29,3 +29,39 @@ You will need two terminals pointed to the frontend and backend directories to s
 ## Creator Credit
 
 This demo app was originally built for a scotch.io (acquired in 2020 by DigitalOcean) article by [Jordan Irabor](https://github.com/Jordanirabor/django-todo-react)
+
+
+
+معرفی
+
+این یک برنامه ساده Todo است که از جنگو (شامل چارچوب Django REST برای عملیات API CRUD) و React ساخته شده است. برای توضیح کامل، به ساخت اپلیکیشن To-Do با استفاده از Django و React مراجعه کنید
+الزامات
+
+    پایتون 3
+    پیپنف
+
+شروع شدن
+
+    پروژه را روی دستگاه خود کلون کنید [git clone https://github.com/Jordanirabor/django-todo-react]
+    به فهرست راهنما بروید [cd django-todo-react]
+    منبع محیط مجازی [pipenv shell]
+    وابستگی ها را نصب کنید [pipenv install]
+    به دایرکتوری frontend بروید [cd frontend]
+    وابستگی ها را نصب کنید [npm install]
+
+برنامه را اجرا کنید
+
+برای راه اندازی سرورهای این برنامه به دو پایانه نیاز دارید که به دایرکتوری های frontend و backend اشاره دارند.
+
+    این دستور را اجرا کنید تا سرور باطن در قسمت راه اندازی شود [backend]فهرست راهنما: [python manage.py runserver](شما باید این دستور را در زمانی که در محیط مجازی منبع هستید اجرا کنید)
+    این دستور را اجرا کنید تا سرور توسعه frontend در قسمت راه اندازی شود [frontend]فهرست راهنما: [npm install](با این کار قسمت ظاهری در آدرس localhost:3000 شروع می شود )
+
+ساخته شده با
+
+    React - یک چارچوب جاوا اسکریپت مترقی.
+    پایتون - یک زبان برنامه نویسی که به شما امکان می دهد سریع کار کنید و سیستم ها را به طور موثرتر یکپارچه کنید.
+    جنگو - یک چارچوب وب پایتون سطح بالا که توسعه سریع و طراحی تمیز و عملی را تشویق می کند.
+
+اعتبار خالق
+
+این برنامه آزمایشی در ابتدا برای مقاله scotch.io (در سال 2020 توسط DigitalOcean خریداری شد) توسط Jordan Irabor ساخته شد. 
